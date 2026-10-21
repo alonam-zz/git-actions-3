@@ -1,7 +1,7 @@
 name: Get github issue context
 on: issues
 jobs:
-  output issue context:
+  output-issue-context:
     runs-on: ubuntu-latest
     steps:
       - name: Get issue context
